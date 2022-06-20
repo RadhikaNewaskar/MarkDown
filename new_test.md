@@ -1,11 +1,63 @@
-Table
-Bold
-Italic
-Underline
-Bullet
-image
-code block
-monospacing
+
+#Bold
+
+This is **bold text**.
+
+This is __bold text Too__.
+
+This**is**bold text.
 
 
-![The San Juan Mountains are beautiful!](https://www.google.com/search?q=image&tbm=isch&source=iu&ictx=1&vet=1&fir=sp12V8x9gw6KuM%252C4O2GvGuD-Cf09M%252C_%253BDH7p1w2o_fIU8M%252CBa_eiczVaD9-zM%252C_%253Bn5hAWsQ-sgKo_M%252C-UStXW0dQEx4SM%252C_%253BL2hxXuK7NBWJmM%252C0JWe7yDOKrVFAM%252C_%253B2nDXavJs9DoKTM%252CB51x0PBR9KNzvM%252C_%253Bz4_uU0QB2pe-SM%252C7SySw5zvOgPYAM%252C_%253B-VCM1w56w6u5VM%252CaVwfeogQqK1XmM%252C_%253BMOAYgJU89sFKnM%252CygIoihldBPn-LM%252C_%253B2DNOEjVi-CBaYM%252CAOz9-XMe1ixZJM%252C_%253BQOZymhPf48LDYM%252CibTdn4unYxO9nM%252C_%253B0DzWhtJoQ1KWgM%252CcIQ7wXCEtJiOWM%252C_%253BkwgHAQqTiLQXLM%252CR0KnAtfyBDsyiM%252C_%253B0sOgRvZZyWRMuM%252CZaycYywhXLmIVM%252C_%253BRnw4ZbzC7SAu-M%252CwJy6d5uce-qbnM%252C_&usg=AI4_-kQyOZGfT39iyGUZCOwCy9yOBp-bxQ&sa=X&ved=2ahUKEwjUzs7girz4AhX87TgGHXiLBBMQ9QF6BAgQEAE#imgrc=DH7p1w2o_fIU8M)
+#Italic
+
+This is *Italicized text*.
+
+This is _Italicized text Too_.
+
+This*Italicized*bold text.
+
+
+
+#Underline
+
+***
+
+---
+
+______
+
+
+#Bullet
+
+order list
+
+1. First item
+2. Second item
+3. Third item
+4. Fourth item
+
+
+1. First item
+2. Second item
+    1. First item
+      2. Second item
+      3. Third item
+      4. Fourth item
+4. Third item
+5. Fourth item
+
+
+
+#image
+
+
+#code block
+
+
+#monospacing
+
+
+#Table
+
+
+

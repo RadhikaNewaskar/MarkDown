@@ -5,7 +5,7 @@ MarkDown Documentation for AWS
 
 * * *
 
-Love**is**bold
+Text **is** bold
 
 ***
 

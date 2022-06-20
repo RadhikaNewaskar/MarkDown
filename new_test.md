@@ -26,7 +26,6 @@ This*Italicized*bold text.
 ```
 
 <br>
----
 
 ______
 
@@ -41,6 +40,11 @@ order list
 3. Third item
 4. Fourth item
 ```
+<br>
+
+
+---
+
 
 <br>
 
@@ -76,6 +80,12 @@ For normal code
   "age": 25
 }
 ```
+
+<br>
+
+
+---
+
 
 <br>
 

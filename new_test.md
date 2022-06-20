@@ -121,6 +121,12 @@ For colorful code
 
 #mon0
 
+
+```
 > A blockquote would look great below the second list item.
 
+```
+<br>
+```
 > A new blockquote
+```

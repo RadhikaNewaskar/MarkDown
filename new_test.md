@@ -48,13 +48,7 @@ order list
 
 <br>
 
-```json
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
+
 <br>
 
 
@@ -62,7 +56,30 @@ order list
 
 
 #code block
+For normal code
 
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+
+<br>
+
+For colorful code
+
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+
+
+### My Great Heading {#custom-id}
 
 #monospacing
 

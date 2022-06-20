@@ -62,7 +62,7 @@ order list
 
 #image
 
-<img src="https://github.com/RadhikaNewaskar/MarkDown/blob/main/Image_created_with_a_mobile_phone.png." width="200" height="100">
+<img src="https://github.com/RadhikaNewaskar/MarkDown/blob/main/Image_created_with_a_mobile_phone.png." width="500" height="500">
 
 
 

@@ -45,7 +45,6 @@ order list
 <br>
 
 ```
-
 1. First item
 2. Second item
     1. First item
@@ -64,10 +63,6 @@ order list
 #image
 
 <img src="https://github.com/RadhikaNewaskar/MarkDown/blob/main/Image_created_with_a_mobile_phone.png." width="200" height="100">
-
-
-![The are beautiful!]([[https://www.google.com/search?q=image&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjtv4f9j7z4AhWI8DgGHcBBDx0Q_AUoAXoECAEQAw&biw=1294&bih=636&dpr=1#imgrc=L2hxXuK7NBWJmM]](https://github.com/RadhikaNewaskar/MarkDown/blob/main/Image_created_with_a_mobile_phone.png.) "San Juan Mountains")
-
 
 
 
@@ -93,12 +88,6 @@ For colorful code
   "age": 25
 }
 ```
-
-
-#monospacing
-
-
-#Table
 
 
 

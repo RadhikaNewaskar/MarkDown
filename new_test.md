@@ -121,20 +121,6 @@ For colorful code
 
 #mono
 
-
-```
-
 > A blockquote would look great below the second list item.
 
-
-```
-
-<br>
-
-
-```
-
 > A new blockquote
-
-
-```

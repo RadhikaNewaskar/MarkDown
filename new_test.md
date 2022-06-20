@@ -46,6 +46,16 @@ order list
 4. Third item
 5. Fourth item
 
+<br>
+
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+<br>
 
 
 #image

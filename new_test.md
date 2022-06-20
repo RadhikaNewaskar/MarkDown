@@ -54,6 +54,13 @@ order list
 
 #image
 
+https://www.google.com/search?q=image&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjtv4f9j7z4AhWI8DgGHcBBDx0Q_AUoAXoECAEQAw&biw=1294&bih=636&dpr=1#imgrc=L2hxXuK7NBWJmM
+
+
+
+![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+
+
 
 #code block
 For normal code
@@ -78,8 +85,6 @@ For colorful code
 }
 ```
 
-
-### My Great Heading {#custom-id}
 
 #monospacing
 

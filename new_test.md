@@ -18,12 +18,9 @@ This*Italicized*bold text.
 
 
 
-#Underline
-```
+#Underline 
 
 ***
-
-```
 
 <br>
 

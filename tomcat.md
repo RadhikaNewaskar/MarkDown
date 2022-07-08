@@ -2,14 +2,14 @@
 
 
 
-##  **What is tomcat ?**
+###  **What is tomcat ?**
 It is an open-source Java servlet container that implements many Java Enterprise Specs such as the Websites API, Java-Server Pages and last but not least, the Java Servlet.
 
 For tomcat setup we need java installed on our server.
 
 
 
-## **1. Install java JRE** 
+### **1. Install java JRE** 
 
 #### **1.1 To Check latest java version**
 ```
@@ -25,7 +25,7 @@ For tomcat setup we need java installed on our server.
 # java -version
 ```
 
-## **2. Download tomcat for centos 7**
+### **2. Download tomcat for centos 7**
 
 #### **2.1 Check tomcat latest version on given site**
 
@@ -47,7 +47,7 @@ Go on above website check latest version of tomcat 9 and find core tar.gz right 
 # mv apache-tomcat-9.0.27 tomcat
 ```
 
-## 3. Change webapps folder location 
+### 3. Change webapps folder location 
 
 By default `webaaps` folder is in `/opt/tomcat/` . We move it to `/var/www/tomcat/`
 
@@ -57,7 +57,7 @@ By default `webaaps` folder is in `/opt/tomcat/` . We move it to `/var/www/tomca
 # mv webapps /opt/tomcat/ /var/www/tomcat/
 ```
 
-## 4. Softlink to logs folder 
+### 4. Softlink to logs folder 
 
 By default `logs` folder is in `/opt/tomcat/`.  We softlink it to `/var/logs/`.
 
@@ -66,7 +66,7 @@ By default `logs` folder is in `/opt/tomcat/`.  We softlink it to `/var/logs/`.
 # ln -s /var/log/tomcat/ /opt/tomcat/logs
 ```
 
-## 5. SSL Certification using openSSL
+### 5. SSL Certification using openSSL
 
 Following command will generate `key` and `crt` this 2 files
 ```
@@ -80,7 +80,7 @@ openssl pkcs12 -inkey tomcat.key -in tomcat.crt -export -out tomcat.p12
 ```
 Now add details of certification  in `server.xml` 
 
-## 6. Changes in `server.xml` 
+### 6. Changes in `server.xml` 
 #### **6.1 Change port of tomcat**
 
 By default port is `8080`. We neet to do changes in `server.xml` file to change tomcat port. 
@@ -140,12 +140,12 @@ This is edited code in `server.xml` file
       	   certificateKeystorePassword="pass@123"	/>
 ```
 
-## 7. Create tomcat user 
+### 7. Create tomcat user 
 ```
 # useradd -m -U -d /opt/tomcat -s /bin/false tomcat
 ```
 
-## 8. Change ownership root to tomcat
+### 8. Change ownership root to tomcat
 ```
 # cd /opt/
 # chown -R tomcat:tomcat tomcat
@@ -153,7 +153,7 @@ This is edited code in `server.xml` file
 # chown -R tomcat:tomcat /var/log/
 ```
 
-## 9. Check HTTPS is woring or not
+### 9. Check HTTPS is woring or not
 ```
 # curl -k -v https://localhost/
 ```

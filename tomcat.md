@@ -9,7 +9,7 @@ For tomcat setup we need java installed on our server.
 
 
 
-## **1. Install java JRE ** 
+## **1. Install java JRE** 
 
 #### **1.1 To Check latest java version**
 ```
@@ -27,7 +27,7 @@ For tomcat setup we need java installed on our server.
 
 ## **2. Download tomcat for centos 7**
 
-#### **2.1 Check tomcat latest version on given site **
+#### **2.1 Check tomcat latest version on given site**
 
 https://downloads.apache.org/tomcat/tomcat-9/
 
@@ -81,7 +81,7 @@ openssl pkcs12 -inkey tomcat.key -in tomcat.crt -export -out tomcat.p12
 Now add details of certification  in `server.xml` 
 
 ## 6. Changes in `server.xml` 
-#### **6.1 Change port of tomcat **
+#### **6.1 Change port of tomcat**
 
 By default port is `8080`. We neet to do changes in `server.xml` file to change tomcat port. 
 ```
@@ -103,7 +103,7 @@ This is edited code in `server.xml` file with change port `443` and redirecting 
 ```
 After changing ports start tomcat agian and checkwebapps process and port using `ps` and `netstat` commands.
 
-#### **6.2 Change webapps folder path **
+#### **6.2 Change webapps folder path**
 
 By default `webapps` folder path is `/opt/tomcat` but we move it to `/var/www/tomcat`
 
@@ -117,7 +117,7 @@ his is edited code in `server.xml` file with change appBase `/var/www/tomcat`
 <Host name="localhost"  appBase="/var/www/tomcat/webapps/"
             unpackWARs="true" autoDeploy="true">
 ```
-####    **6.3 Add Certification details **
+####    **6.3 Add Certification details**
 
 Now we have 3 files `tomcat.key , tomcat.crt , tomcat.p12` we need to add their enrty in `server.xml`
 
